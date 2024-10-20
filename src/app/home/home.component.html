@@ -1,0 +1,188 @@
+  
+
+<div class="home_content">
+    <div class="home_info">
+        <div class="home_info_top">
+            <div class="top_text">
+                <h3>Today's Sales</h3>
+                <p>Sales Summary</p>
+            </div>
+            <div class="top_date">
+                <i class="bi bi-calendar-event"></i>
+                <p>Tue, 05-09-2023</p>
+            </div>
+        </div>
+        <div class="home_info_chart">
+            <div class="chart_item">
+                <div class="item_logo">
+                    <i class="bi bi-file-bar-graph-fill"></i>
+                </div>
+                <div class="item_text">
+                    <h3>$37,446</h3>
+                    <p>Total Sales</p>
+                    <span>+18% from yesterday</span>
+                </div>
+            </div>
+            <div class="chart_item">
+                <div class="item_logo">
+                    <i class="bi bi-file-text"></i>
+                </div>
+                <div class="item_text">
+                    <h3>365</h3>
+                    <p>Total Orders</p>
+                    <span>+27% from yesterday</span>
+                </div>
+            </div>
+            <div class="chart_item">
+                <div class="item_logo">
+                    <i class="bi bi-person"></i>
+                </div>
+                <div class="item_text">
+                    <h3>36</h3>
+                    <p>New Customers</p>
+                    <span>+8% from yesterday</span>
+                </div>
+            </div>
+            <div class="chart_item">
+                <div class="item_logo">
+                    <i class="bi bi-coin"></i>
+                </div>
+                <div class="item_text">
+                    <h3>$16,285</h3>
+                    <p>Total Earnings</p>
+                    <span>+23% from yesterday</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="home_mid">
+        <div class="week">
+            <h3>Weekly Sales</h3>
+            <div class="week_graph">
+                <app-week></app-week>
+            </div>
+        </div>
+
+        <div class="short">
+            <div class="short_title">
+                <h3>Sales</h3>
+                <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <div class="short_graph">
+                <app-sale></app-sale>
+            </div>
+            <h4>446</h4>
+            <p>Number of sales</p>
+            <div class="short_percent">
+                <i class="bi bi-x-circle-fill icon1"></i>
+                <p>36%</p>
+                <i class="bi bi-caret-up-fill icon2"></i>
+            </div>
+        </div>
+
+        <div class="short">
+            <div class="short_title">
+                <h3>Profit</h3>
+                <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <div class="short_graph">
+                <app-profit></app-profit>
+            </div>
+            <h4>$97,287</h4>
+            <p>Profit by sales</p>
+            <div class="short_percent">
+                <i class="bi bi-x-circle-fill icon1"></i>
+                <p>27%</p>
+                <i class="bi bi-caret-up-fill icon2"></i>
+            </div>
+        </div>
+
+        <div class="product">
+            <h3>Product Class</h3>
+            <div class="product_item">
+                <div class="item_list">
+                    <ul>
+                        <li><span></span>Electronics</li>
+                        <li><span></span>Cloths</li>
+                        <li><span></span>Beauty Care</li>
+                        <li><span></span>Books</li>
+                        <li><span></span>Toys</li>
+                    </ul>
+                </div>
+                <div class="item_graph">
+                    <app-product></app-product>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home_bot">
+        <div class="customer">
+            <h3>Customer Satisfaction</h3>
+            <div class="customer_graph">
+                <app-customer></app-customer>
+            </div>
+            <div class="customer_bot">
+                <div class="bot1">
+                    <i class="bi bi-align-center"></i>
+                    <p>Last Month</p>
+                </div>
+                <div class="bot2">
+                    <i class="bi bi-align-center"></i>
+                    <p>This Month</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="order">
+            <div class="order_title">
+                <h3>Recent Orders</h3>
+                <a href="">See all</a>
+            </div>
+            <table class="table order_table">
+                <thead>
+                  <tr>
+                    <th scope="col">Profile</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mark</td>
+                    <td><i class="bi bi-geo-alt-fill text-danger"></i> comiewor</td>
+                    <td>03-09-2023</td>
+                    <td><i class="bi bi-check-circle text-success"></i> Delievered</td>
+                    <td>$18,999</td>
+                  </tr>
+                  <tr>
+                    <td>Eric</td>
+                    <td><i class="bi bi-geo-alt-fill text-danger"></i> uiiwere</td>
+                    <td>03-09-2023</td>
+                    <td><i class="bi bi-x-circle text-danger"></i> Rejected</td>
+                    <td>$8,999</td>
+                  </tr>
+                  <tr>
+                    <td>Mayday</td>
+                    <td><i class="bi bi-geo-alt-fill text-danger"></i> yukrick</td>
+                    <td>03-09-2023</td>
+                    <td><i class="bi bi-check-circle text-success"></i> Delievered</td>
+                    <td>$199</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="target">
+            <h3>Sales Target</h3>
+            <div class="target_graph">
+                <app-target></app-target>
+            </div>
+            <p>Achieved</p>
+        </div>
+    </div>
+    
+</div>
